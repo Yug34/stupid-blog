@@ -10,7 +10,9 @@
                 {{ form|crispy }}
             </fieldset>
             <div class="form-group">
-                <button action="https://mystupidblog.herokuapp.com/" class="btn btn-outline-info" type="submit">Login!</button>
+                <a href="https://mystupidblog.herokuapp.com/">
+                <button class="btn btn-outline-info" type="submit">Login!</button>
+                </a>
                 <small class="text-muted ml-2">
                     <a href="{% url 'password_reset' %}">Forgot Password?</a>
                 </small>
