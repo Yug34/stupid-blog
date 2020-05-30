@@ -16,11 +16,10 @@
       <h2 class="article-title">{{ object.title }}</h2>
       <p class="article-content">{{ object.content }}</p>
       {% if object.pic %}
-        {% if object.pic != 'default.jpg' %}
           <br>
-          <img id="postpic" src="{{ object.pic.url }}" width="500" height="auto"/>
-        {% endif %}
+          <img src="{{ object.pic.url }}" width="500" height="auto"/>
       {% endif %}
     </div>
   </article>
 {% endblock content %}
+
