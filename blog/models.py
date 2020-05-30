@@ -12,6 +12,12 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     pic = models.ImageField(default='default.jpg', blank=True, upload_to='postpics')
 
+    def snippet(self):
+        if len(self.text) > 200:
+            return self.text[:200] + '...'
+        else:
+            return self.text
+
     def __str__(self):
         return self.title
 
