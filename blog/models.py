@@ -13,10 +13,10 @@ class Post(models.Model):
     pic = models.ImageField(default='default.jpg', blank=True, upload_to='postpics')
 
     def snippet(self):
-        if len(self.text) > 200:
-            return self.text[:200] + '...'
+        if len(self.content) > 200:
+            return self.content[:200] + '...'
         else:
-            return self.text
+            return self.content
 
     def __str__(self):
         return self.title
