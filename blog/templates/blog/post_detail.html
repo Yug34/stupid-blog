@@ -16,16 +16,8 @@
       <h2 class="article-title">{{ object.title }}</h2>
       <p class="article-content">{{ object.content }}</p>
       {% if object.pic %}
-          <br>
-          @media (min-width: 1000px) {
-        <img src="{{ object.pic.url }}" width="500" height="auto"/>
-      }
-
-      @media (max-width: 999px) {
-        <img src="{{ object.pic.url }}" width="500" height="auto"/>
-      }
-
-
+        <br>
+        <img src="{{ object.pic.url }}" width=33% height="auto"/>
       {% endif %}
     </div>
   </article>
