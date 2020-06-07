@@ -40,6 +40,7 @@ ul {
 
 
 .article-title {
+  width: 80%;
   color: #444444;
 }
 
@@ -49,6 +50,7 @@ a.article-title:hover {
 }
 
 .article-content {
+  width: 80%;
   white-space: pre-line;
 }
 
