@@ -31,6 +31,19 @@ ul {
   font-weight: 500;
 }
 
+#registerbtn {
+    color: #fff;
+    background-color: darkgray;
+    border: 1px gray solid;
+    border-radius: 7px;
+    width: fit-content;
+    padding: 7px;
+}
+
+#registerbtn:hover {
+    background-color: lightgray;
+}
+
 #logoutbtn {
     color: #fff;
     background-color: #dc3545;
