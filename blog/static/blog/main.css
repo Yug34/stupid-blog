@@ -31,6 +31,17 @@ ul {
   font-weight: 500;
 }
 
+#logoutbtn {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 7px;
+}
+
+#logoutbtn :hover {
+    background-color: #ff4d4d;
+}
+
 .content-section {
     background: #ffffff;
     padding: 10px 20px;
