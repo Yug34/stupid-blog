@@ -37,7 +37,6 @@ ul {
     border-color: #dc3545;
     border-radius: 7px;
     width: fit-content;
-    padding: 6px;
 }
 
 #logoutbtn:hover {
@@ -52,9 +51,8 @@ ul {
     margin-bottom: 20px;
     border-radius: 3px;
     background: linear-gradient(45deg, #eeeeee, #ffffff);
-    box-shadow: inset 20px -20px 60px #666666,
-            inset -20px 20px 60px #ffffff;
-            
+    box-shadow:  -10px 10px 21px #cccccc,
+             10px -10px 21px #ffffff;
 }
 
 .article-title {
