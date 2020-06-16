@@ -13,7 +13,10 @@ ul {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+    box-shadow: inset -23px 23px 46px #666666,
+            inset 23px -23px 46px #ffffff;
+    background-color: #5f788a;
+    opacity: 0.9;
 }
 
 .site-header .navbar-nav .nav-link {
