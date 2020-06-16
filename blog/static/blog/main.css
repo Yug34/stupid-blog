@@ -14,8 +14,8 @@ ul {
 
 .bg-steel {
     background-image: linear-gradient(-5deg, #ffffff, #777777);
-    box-shadow: inset -23px 23px 46px #666666,
-            inset 23px -23px 46px #ffffff;
+    box-shadow: inset 23px -23px 46px #666666,
+            inset -23px 23px 46px #ffffff;
     opacity: 0.9;
 }
 
@@ -37,6 +37,7 @@ ul {
     border-color: #dc3545;
     border-radius: 7px;
     width: fit-content;
+    padding: 7px;
 }
 
 #logoutbtn:hover {
