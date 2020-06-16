@@ -36,6 +36,8 @@ ul {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 7px;
+    width: fit-content;
+    padding: 6px;
 }
 
 #logoutbtn:hover {
