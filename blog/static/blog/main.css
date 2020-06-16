@@ -13,9 +13,9 @@ ul {
 }
 
 .bg-steel {
+    background-image: linear-gradient(-5deg, #ffffff, #777777);
     box-shadow: inset -23px 23px 46px #666666,
             inset 23px -23px 46px #ffffff;
-    background-color: #5f788a;
     opacity: 0.9;
 }
 
