@@ -117,3 +117,8 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+#particles-js{
+    background: firebrick;
+    height: 400px;
+}
