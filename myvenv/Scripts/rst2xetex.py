@@ -1,4 +1,4 @@
-#!c:\users\yug\desktop\python\python projects\stupidblog\myvenv\scripts\python.exe
+#!C:\Users\Yug\Desktop\Python\Python Projects\stupidblog\myvenv\Scripts\python.exe
 
 # $Id: rst2xetex.py 7847 2015-03-17 17:30:47Z milde $
 # Author: Guenter Milde

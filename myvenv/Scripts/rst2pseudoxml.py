@@ -1,4 +1,4 @@
-#!c:\users\yug\desktop\python\python projects\stupidblog\myvenv\scripts\python.exe
+#!C:\Users\Yug\Desktop\Python\Python Projects\stupidblog\myvenv\Scripts\python.exe
 
 # $Id: rst2pseudoxml.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: David Goodger <goodger@python.org>

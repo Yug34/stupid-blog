@@ -1,4 +1,4 @@
-#!c:\users\yug\desktop\python\python projects\stupidblog\myvenv\scripts\python.exe
+#!C:\Users\Yug\Desktop\Python\Python Projects\stupidblog\myvenv\Scripts\python.exe
 
 # $Id: rst2s5.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: Chris Liechti <cliechti@gmx.net>
